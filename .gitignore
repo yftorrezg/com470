@@ -1,1 +1,87 @@
 /libros-guia
+00.alex/lab1/alex_lab1.xlsx
+00.alex/lab1/Lab 1 casos de prueba.pdf
+00.alex/lab1/Plantilla - Reporte de Bug.docx
+01.roberts/Laboratorio/Laboratorio 10/captura uso Jmeter.pdf
+01.roberts/Laboratorio/Laboratorio 10/Lab 10.docx
+01.roberts/Laboratorio/Laboratorio 10/orange.jmx
+01.roberts/Laboratorio/Laboratorio 10/Plan de Pruebas.jmx
+01.roberts/Laboratorio/Laboratorio 2/COM470-buggycars.postman_collection.json
+01.roberts/Laboratorio/Laboratorio 2/con POSTMAN.pdf
+01.roberts/Laboratorio/Laboratorio 2/ROBERTScasos de prueba.xlsx
+01.roberts/Laboratorio/Laboratorio 3/calculadora-spring - copia.rar
+01.roberts/Laboratorio/Laboratorio 3/CalculateSimpleTest.java.txt
+01.roberts/Laboratorio/Laboratorio 3/capturas de pantalla.docx
+01.roberts/Laboratorio/Laboratorio 3/Casos de prueba Lab 3 COM470.xls
+01.roberts/Laboratorio/Laboratorio 3/COM470 Calculadora.postman_collection.json
+01.roberts/Laboratorio/Laboratorio 3/PRACTICA 3 COM470.pdf
+01.roberts/Laboratorio/Laboratorio 3/calculadora-spring - copia/.classpath
+01.roberts/Laboratorio/Laboratorio 3/calculadora-spring - copia/.project
+01.roberts/Laboratorio/Laboratorio 3/calculadora-spring - copia/calculator.iml
+01.roberts/Laboratorio/Laboratorio 3/calculadora-spring - copia/pom.xml
+01.roberts/Laboratorio/Laboratorio 3/calculadora-spring - copia/README.md
+01.roberts/Laboratorio/Laboratorio 3/calculadora-spring - copia/.settings/org.eclipse.core.resources.prefs
+01.roberts/Laboratorio/Laboratorio 3/calculadora-spring - copia/.settings/org.eclipse.jdt.apt.core.prefs
+01.roberts/Laboratorio/Laboratorio 3/calculadora-spring - copia/.settings/org.eclipse.jdt.core.prefs
+01.roberts/Laboratorio/Laboratorio 3/calculadora-spring - copia/.settings/org.eclipse.m2e.core.prefs
+01.roberts/Laboratorio/Laboratorio 3/calculadora-spring - copia/.settings/org.springframework.ide.eclipse.prefs
+01.roberts/Laboratorio/Laboratorio 3/calculadora-spring - copia/src/main/java/com/example/CalculatorSpringBoot.java
+01.roberts/Laboratorio/Laboratorio 3/calculadora-spring - copia/src/main/java/com/example/controllers/CalculatorController.java
+01.roberts/Laboratorio/Laboratorio 3/calculadora-spring - copia/src/main/java/com/example/model/OperationModel.java
+01.roberts/Laboratorio/Laboratorio 3/calculadora-spring - copia/src/main/java/com/example/service/CalculateSimple.java
+01.roberts/Laboratorio/Laboratorio 3/calculadora-spring - copia/src/main/resources/templates/calculadora.html
+01.roberts/Laboratorio/Laboratorio 3/calculadora-spring - copia/src/test/java/com/example/service/CalculateSimpleTest.java
+01.roberts/Laboratorio/Laboratorio 3/calculadora-spring - copia/target/calculadora-1.0-SNAPSHOT.jar.original
+01.roberts/Laboratorio/Laboratorio 3/calculadora-spring - copia/target/classes/META-INF/MANIFEST.MF
+01.roberts/Laboratorio/Laboratorio 3/calculadora-spring - copia/target/classes/META-INF/maven/com470.calculadora/calculadora/pom.properties
+01.roberts/Laboratorio/Laboratorio 3/calculadora-spring - copia/target/classes/META-INF/maven/com470.calculadora/calculadora/pom.xml
+01.roberts/Laboratorio/Laboratorio 3/calculadora-spring - copia/target/classes/com/example/CalculatorSpringBoot.class
+01.roberts/Laboratorio/Laboratorio 3/calculadora-spring - copia/target/classes/com/example/controllers/CalculatorController.class
+01.roberts/Laboratorio/Laboratorio 3/calculadora-spring - copia/target/classes/com/example/model/OperationModel.class
+01.roberts/Laboratorio/Laboratorio 3/calculadora-spring - copia/target/classes/com/example/service/CalculateSimple.class
+01.roberts/Laboratorio/Laboratorio 3/calculadora-spring - copia/target/classes/templates/calculadora.html
+01.roberts/Laboratorio/Laboratorio 3/calculadora-spring - copia/target/maven-archiver/pom.properties
+01.roberts/Laboratorio/Laboratorio 3/calculadora-spring - copia/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+01.roberts/Laboratorio/Laboratorio 3/calculadora-spring - copia/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+01.roberts/Laboratorio/Laboratorio 3/calculadora-spring - copia/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+01.roberts/Laboratorio/Laboratorio 3/calculadora-spring - copia/target/test-classes/com/example/service/CalculateSimpleTest.class
+01.roberts/Laboratorio/Laboratorio 4/capturas Lab 4.docx
+01.roberts/Laboratorio/Laboratorio 4/Casos de prueba Lab 4 COM470.xls
+01.roberts/Laboratorio/Laboratorio 4/Lab4.pdf
+01.roberts/Laboratorio/Laboratorio 4/NumeroComplejoTest.java.txt
+01.roberts/Laboratorio/Laboratorio 5/APIrestful-book-main.zip
+01.roberts/Laboratorio/Laboratorio 5/BookControllerTest.java.txt
+01.roberts/Laboratorio/Laboratorio 5/capturas lab5.docx
+01.roberts/Laboratorio/Laboratorio 5/Practica LAB 5 Mockito COM470 .pdf
+01.roberts/Laboratorio/Laboratorio 6/Captura.PNG
+01.roberts/Laboratorio/Laboratorio 6/practico lab 6 - mockito.pdf
+01.roberts/Laboratorio/Laboratorio 6/TicketApi.rar
+01.roberts/Laboratorio/Laboratorio 6/TicketControllerTest.java.txt
+01.roberts/Laboratorio/Laboratorio 6/TicketServiceTest.jav.txt
+01.roberts/Laboratorio/Laboratorio 6/TicketApi/.gitignore
+01.roberts/Laboratorio/Laboratorio 6/TicketApi/derby.log
+01.roberts/Laboratorio/Laboratorio 6/TicketApi/mvnw
+01.roberts/Laboratorio/Laboratorio 6/TicketApi/mvnw.cmd
+01.roberts/Laboratorio/Laboratorio 6/TicketApi/pom.xml
+01.roberts/Laboratorio/Laboratorio 6/TicketApi/.mvn/wrapper/maven-wrapper.properties
+01.roberts/Laboratorio/Laboratorio 6/TicketApi/nbproject/project.properties
+01.roberts/Laboratorio/Laboratorio 6/TicketApi/src/main/java/com/tbma/book/ticket/app/TicketApi.java
+01.roberts/Laboratorio/Laboratorio 6/TicketApi/src/main/java/com/tbma/book/ticket/app/controller/TicketController.java
+01.roberts/Laboratorio/Laboratorio 6/TicketApi/src/main/java/com/tbma/book/ticket/app/dao/TicketDao.java
+01.roberts/Laboratorio/Laboratorio 6/TicketApi/src/main/java/com/tbma/book/ticket/app/entities/Ticket.java
+01.roberts/Laboratorio/Laboratorio 6/TicketApi/src/main/java/com/tbma/book/ticket/app/service/TicketService.java
+01.roberts/Laboratorio/Laboratorio 6/TicketApi/src/main/resources/application.properties
+01.roberts/Laboratorio/Laboratorio 6/TicketApi/src/test/java/com/tbma/book/ticket/app/TicketApiTests.java
+01.roberts/Laboratorio/Laboratorio 6/TicketApi/src/test/java/com/tbma/book/ticket/app/controller/TicketControllerTest.java
+01.roberts/Laboratorio/Laboratorio 6/TicketApi/src/test/java/com/tbma/book/ticket/app/service/TicketServiceTest.java
+01.roberts/Laboratorio/Laboratorio 7/lab 7- COM470 - Automatizacion.docx
+01.roberts/Laboratorio/Laboratorio 7/Lab_7.side
+01.roberts/Laboratorio/Laboratorio 7/Test Buggy Cars.side
+01.roberts/Laboratorio/Laboratorio 8/Lab_8.docx
+01.roberts/Laboratorio/Laboratorio 8/Romano.py
+01.roberts/Laboratorio/Laboratorio 8/test_Romano.py
+01.roberts/Laboratorio/Laboratorio 8/__pycache__/Romano.cpython-310.pyc
+01.roberts/Laboratorio/Laboratorio 9/Pasos creracion de features.pdf
+01.roberts/Laboratorio/Laboratorio 9/V1. Gherkin... Una guía d supervivencia ágil.pdf
+01.roberts/Laboratorio/Laboratorio 9/features/login.feature
+01.roberts/Laboratorio/Laboratorio 9/features/transferMoney.feature
