@@ -1,0 +1,457 @@
+{
+	"info": {
+		"_postman_id": "b7b061e9-b975-49b9-87e4-aff373967f83",
+		"name": "Lab2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24894132"
+	},
+	"item": [
+		{
+			"name": "VerPerfil editado",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							"pm.test(\"Yamil Torrez: Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJraWQiOiJ0UkRnSmpNekhta2tIanVvT2g3Rm5RYkRBYUdHRjQxQ2VPbEVEaWI3MkQ4PSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJiMzc5NjUyNC0xY2VkLTRkYWMtYTBiYi05YmNmMWU0NmY2YWMiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGhlYXN0LTIuYW1hem9uYXdzLmNvbVwvYXAtc291dGhlYXN0LTJfT3A3S0d4ME1jIiwiY2xpZW50X2lkIjoiNTduZGNrZzNoZ2Y5OGZ1NHN1cXEzdjJpNGIiLCJvcmlnaW5fanRpIjoiOWFhZGZkNTQtYjMyNC00MmM0LWE2OTYtZjZlM2NmZjk4NjAyIiwiZXZlbnRfaWQiOiI3NzJkOTQyMC0zMjY1LTRlNGQtOWVhMC04NzJkNTgxNjIzNzYiLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNjc5NjE1NTMyLCJleHAiOjE2Nzk2MTkxMzIsImlhdCI6MTY3OTYxNTUzMiwianRpIjoiYmZiNmE1YWQtMmY5Ny00NWQ0LTllNjEtNzg1ZmQyNGMxNmFiIiwidXNlcm5hbWUiOiJZYWZlcjEwdG9ycmV6In0.fDq_tSsH5_oz3HMArk_zfWU22lX0lav7o68uQn6Yudq0Fis6n_ygVJDcdqqXnVkaw5jDueZS7Ey4qcCLaJnaLGD11-g1T8go2vEK25pWBZZb75PgXHwydIVmNWIflkr3bvEI93rq9zGmbpN6HpNAesacZXYPOhikO5b1tO-sMqs8qtg5d3GvjWCUPsUP0MuQ342Kiz9rBL4O9CTOOst5mQwa1fiTczm0aTAyW37wR_xw7wlVysofIbESxsdSOF7f0dJQWVxk4FPOHSjpgqpW67jRHcaeeacub4b1aipAHf6puBtGDmwamzr0QLPRwUiej1luR8mWx7jaYYAgwsD8gA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/profile",
+					"protocol": "https",
+					"host": [
+						"k51qryqov3",
+						"execute-api",
+						"ap-southeast-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"users",
+						"profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EditarPerfil",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							"pm.test(\"Yamil Torrez: Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJraWQiOiJ0UkRnSmpNekhta2tIanVvT2g3Rm5RYkRBYUdHRjQxQ2VPbEVEaWI3MkQ4PSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJiMzc5NjUyNC0xY2VkLTRkYWMtYTBiYi05YmNmMWU0NmY2YWMiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGhlYXN0LTIuYW1hem9uYXdzLmNvbVwvYXAtc291dGhlYXN0LTJfT3A3S0d4ME1jIiwiY2xpZW50X2lkIjoiNTduZGNrZzNoZ2Y5OGZ1NHN1cXEzdjJpNGIiLCJvcmlnaW5fanRpIjoiOWFhZGZkNTQtYjMyNC00MmM0LWE2OTYtZjZlM2NmZjk4NjAyIiwiZXZlbnRfaWQiOiI3NzJkOTQyMC0zMjY1LTRlNGQtOWVhMC04NzJkNTgxNjIzNzYiLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNjc5NjE1NTMyLCJleHAiOjE2Nzk2MTkxMzIsImlhdCI6MTY3OTYxNTUzMiwianRpIjoiYmZiNmE1YWQtMmY5Ny00NWQ0LTllNjEtNzg1ZmQyNGMxNmFiIiwidXNlcm5hbWUiOiJZYWZlcjEwdG9ycmV6In0.fDq_tSsH5_oz3HMArk_zfWU22lX0lav7o68uQn6Yudq0Fis6n_ygVJDcdqqXnVkaw5jDueZS7Ey4qcCLaJnaLGD11-g1T8go2vEK25pWBZZb75PgXHwydIVmNWIflkr3bvEI93rq9zGmbpN6HpNAesacZXYPOhikO5b1tO-sMqs8qtg5d3GvjWCUPsUP0MuQ342Kiz9rBL4O9CTOOst5mQwa1fiTczm0aTAyW37wR_xw7wlVysofIbESxsdSOF7f0dJQWVxk4FPOHSjpgqpW67jRHcaeeacub4b1aipAHf6puBtGDmwamzr0QLPRwUiej1luR8mWx7jaYYAgwsD8gA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"Yafer10torrez\",\r\n    \"firstName\": \"Yafer\",\r\n    \"lastName\": \"Torrez  \",\r\n    \"gender\": \"male\",\r\n    \"age\": \"10\",\r\n    \"address\": \"Sucre\",\r\n    \"phone\": \"\",\r\n    \"hobby\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/profile",
+					"protocol": "https",
+					"host": [
+						"k51qryqov3",
+						"execute-api",
+						"ap-southeast-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"users",
+						"profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Voto",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJraWQiOiJ0UkRnSmpNekhta2tIanVvT2g3Rm5RYkRBYUdHRjQxQ2VPbEVEaWI3MkQ4PSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJiMzc5NjUyNC0xY2VkLTRkYWMtYTBiYi05YmNmMWU0NmY2YWMiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGhlYXN0LTIuYW1hem9uYXdzLmNvbVwvYXAtc291dGhlYXN0LTJfT3A3S0d4ME1jIiwiY2xpZW50X2lkIjoiNTduZGNrZzNoZ2Y5OGZ1NHN1cXEzdjJpNGIiLCJvcmlnaW5fanRpIjoiOWFhZGZkNTQtYjMyNC00MmM0LWE2OTYtZjZlM2NmZjk4NjAyIiwiZXZlbnRfaWQiOiI3NzJkOTQyMC0zMjY1LTRlNGQtOWVhMC04NzJkNTgxNjIzNzYiLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNjc5NjE1NTMyLCJleHAiOjE2Nzk2MTkxMzIsImlhdCI6MTY3OTYxNTUzMiwianRpIjoiYmZiNmE1YWQtMmY5Ny00NWQ0LTllNjEtNzg1ZmQyNGMxNmFiIiwidXNlcm5hbWUiOiJZYWZlcjEwdG9ycmV6In0.fDq_tSsH5_oz3HMArk_zfWU22lX0lav7o68uQn6Yudq0Fis6n_ygVJDcdqqXnVkaw5jDueZS7Ey4qcCLaJnaLGD11-g1T8go2vEK25pWBZZb75PgXHwydIVmNWIflkr3bvEI93rq9zGmbpN6HpNAesacZXYPOhikO5b1tO-sMqs8qtg5d3GvjWCUPsUP0MuQ342Kiz9rBL4O9CTOOst5mQwa1fiTczm0aTAyW37wR_xw7wlVysofIbESxsdSOF7f0dJQWVxk4FPOHSjpgqpW67jRHcaeeacub4b1aipAHf6puBtGDmwamzr0QLPRwUiej1luR8mWx7jaYYAgwsD8gA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00e0|c4u1mqnarscc72is00fg/vote",
+					"protocol": "https",
+					"host": [
+						"k51qryqov3",
+						"execute-api",
+						"ap-southeast-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"models",
+						"c4u1mqnarscc72is00e0|c4u1mqnarscc72is00fg",
+						"vote"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Vote_Alfa Romeo",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Yamil Torrez: Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/makes/c4u1mqnarscc72is00ng?modelsPage=1",
+					"protocol": "https",
+					"host": [
+						"k51qryqov3",
+						"execute-api",
+						"ap-southeast-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"makes",
+						"c4u1mqnarscc72is00ng"
+					],
+					"query": [
+						{
+							"key": "modelsPage",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4c Spider",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Yamil Torrez: Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00ng%7Cc4u1mqnarscc72is00pg",
+					"protocol": "https",
+					"host": [
+						"k51qryqov3",
+						"execute-api",
+						"ap-southeast-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"models",
+						"c4u1mqnarscc72is00ng%7Cc4u1mqnarscc72is00pg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2NombreVacio",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Yamil Torrez: Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJraWQiOiJ0UkRnSmpNekhta2tIanVvT2g3Rm5RYkRBYUdHRjQxQ2VPbEVEaWI3MkQ4PSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJiMzc5NjUyNC0xY2VkLTRkYWMtYTBiYi05YmNmMWU0NmY2YWMiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGhlYXN0LTIuYW1hem9uYXdzLmNvbVwvYXAtc291dGhlYXN0LTJfT3A3S0d4ME1jIiwiY2xpZW50X2lkIjoiNTduZGNrZzNoZ2Y5OGZ1NHN1cXEzdjJpNGIiLCJvcmlnaW5fanRpIjoiOWFhZGZkNTQtYjMyNC00MmM0LWE2OTYtZjZlM2NmZjk4NjAyIiwiZXZlbnRfaWQiOiI3NzJkOTQyMC0zMjY1LTRlNGQtOWVhMC04NzJkNTgxNjIzNzYiLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNjc5NjE1NTMyLCJleHAiOjE2Nzk2MTkxMzIsImlhdCI6MTY3OTYxNTUzMiwianRpIjoiYmZiNmE1YWQtMmY5Ny00NWQ0LTllNjEtNzg1ZmQyNGMxNmFiIiwidXNlcm5hbWUiOiJZYWZlcjEwdG9ycmV6In0.fDq_tSsH5_oz3HMArk_zfWU22lX0lav7o68uQn6Yudq0Fis6n_ygVJDcdqqXnVkaw5jDueZS7Ey4qcCLaJnaLGD11-g1T8go2vEK25pWBZZb75PgXHwydIVmNWIflkr3bvEI93rq9zGmbpN6HpNAesacZXYPOhikO5b1tO-sMqs8qtg5d3GvjWCUPsUP0MuQ342Kiz9rBL4O9CTOOst5mQwa1fiTczm0aTAyW37wR_xw7wlVysofIbESxsdSOF7f0dJQWVxk4FPOHSjpgqpW67jRHcaeeacub4b1aipAHf6puBtGDmwamzr0QLPRwUiej1luR8mWx7jaYYAgwsD8gA",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current",
+					"protocol": "https",
+					"host": [
+						"k51qryqov3",
+						"execute-api",
+						"ap-southeast-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"users",
+						"current"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "register",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJraWQiOiJ0UkRnSmpNekhta2tIanVvT2g3Rm5RYkRBYUdHRjQxQ2VPbEVEaWI3MkQ4PSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJiMzc5NjUyNC0xY2VkLTRkYWMtYTBiYi05YmNmMWU0NmY2YWMiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGhlYXN0LTIuYW1hem9uYXdzLmNvbVwvYXAtc291dGhlYXN0LTJfT3A3S0d4ME1jIiwiY2xpZW50X2lkIjoiNTduZGNrZzNoZ2Y5OGZ1NHN1cXEzdjJpNGIiLCJvcmlnaW5fanRpIjoiOWFhZGZkNTQtYjMyNC00MmM0LWE2OTYtZjZlM2NmZjk4NjAyIiwiZXZlbnRfaWQiOiI3NzJkOTQyMC0zMjY1LTRlNGQtOWVhMC04NzJkNTgxNjIzNzYiLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNjc5NjE1NTMyLCJleHAiOjE2Nzk2MTkxMzIsImlhdCI6MTY3OTYxNTUzMiwianRpIjoiYmZiNmE1YWQtMmY5Ny00NWQ0LTllNjEtNzg1ZmQyNGMxNmFiIiwidXNlcm5hbWUiOiJZYWZlcjEwdG9ycmV6In0.fDq_tSsH5_oz3HMArk_zfWU22lX0lav7o68uQn6Yudq0Fis6n_ygVJDcdqqXnVkaw5jDueZS7Ey4qcCLaJnaLGD11-g1T8go2vEK25pWBZZb75PgXHwydIVmNWIflkr3bvEI93rq9zGmbpN6HpNAesacZXYPOhikO5b1tO-sMqs8qtg5d3GvjWCUPsUP0MuQ342Kiz9rBL4O9CTOOst5mQwa1fiTczm0aTAyW37wR_xw7wlVysofIbESxsdSOF7f0dJQWVxk4FPOHSjpgqpW67jRHcaeeacub4b1aipAHf6puBtGDmwamzr0QLPRwUiej1luR8mWx7jaYYAgwsD8gA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/current",
+					"protocol": "https",
+					"host": [
+						"k51qryqov3",
+						"execute-api",
+						"ap-southeast-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"users",
+						"current"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "voto_spider",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJraWQiOiJ0UkRnSmpNekhta2tIanVvT2g3Rm5RYkRBYUdHRjQxQ2VPbEVEaWI3MkQ4PSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJiMzc5NjUyNC0xY2VkLTRkYWMtYTBiYi05YmNmMWU0NmY2YWMiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGhlYXN0LTIuYW1hem9uYXdzLmNvbVwvYXAtc291dGhlYXN0LTJfT3A3S0d4ME1jIiwiY2xpZW50X2lkIjoiNTduZGNrZzNoZ2Y5OGZ1NHN1cXEzdjJpNGIiLCJvcmlnaW5fanRpIjoiOWFhZGZkNTQtYjMyNC00MmM0LWE2OTYtZjZlM2NmZjk4NjAyIiwiZXZlbnRfaWQiOiI3NzJkOTQyMC0zMjY1LTRlNGQtOWVhMC04NzJkNTgxNjIzNzYiLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNjc5NjE1NTMyLCJleHAiOjE2Nzk2MTkxMzIsImlhdCI6MTY3OTYxNTUzMiwianRpIjoiYmZiNmE1YWQtMmY5Ny00NWQ0LTllNjEtNzg1ZmQyNGMxNmFiIiwidXNlcm5hbWUiOiJZYWZlcjEwdG9ycmV6In0.fDq_tSsH5_oz3HMArk_zfWU22lX0lav7o68uQn6Yudq0Fis6n_ygVJDcdqqXnVkaw5jDueZS7Ey4qcCLaJnaLGD11-g1T8go2vEK25pWBZZb75PgXHwydIVmNWIflkr3bvEI93rq9zGmbpN6HpNAesacZXYPOhikO5b1tO-sMqs8qtg5d3GvjWCUPsUP0MuQ342Kiz9rBL4O9CTOOst5mQwa1fiTczm0aTAyW37wR_xw7wlVysofIbESxsdSOF7f0dJQWVxk4FPOHSjpgqpW67jRHcaeeacub4b1aipAHf6puBtGDmwamzr0QLPRwUiej1luR8mWx7jaYYAgwsD8gA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00ng%7Cc4u1mqnarscc72is00pg/vote",
+					"protocol": "https",
+					"host": [
+						"k51qryqov3",
+						"execute-api",
+						"ap-southeast-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"models",
+						"c4u1mqnarscc72is00ng%7Cc4u1mqnarscc72is00pg",
+						"vote"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "voto_spider Copy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJraWQiOiJ0UkRnSmpNekhta2tIanVvT2g3Rm5RYkRBYUdHRjQxQ2VPbEVEaWI3MkQ4PSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJiMzc5NjUyNC0xY2VkLTRkYWMtYTBiYi05YmNmMWU0NmY2YWMiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGhlYXN0LTIuYW1hem9uYXdzLmNvbVwvYXAtc291dGhlYXN0LTJfT3A3S0d4ME1jIiwiY2xpZW50X2lkIjoiNTduZGNrZzNoZ2Y5OGZ1NHN1cXEzdjJpNGIiLCJvcmlnaW5fanRpIjoiOWFhZGZkNTQtYjMyNC00MmM0LWE2OTYtZjZlM2NmZjk4NjAyIiwiZXZlbnRfaWQiOiI3NzJkOTQyMC0zMjY1LTRlNGQtOWVhMC04NzJkNTgxNjIzNzYiLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNjc5NjE1NTMyLCJleHAiOjE2Nzk2MTkxMzIsImlhdCI6MTY3OTYxNTUzMiwianRpIjoiYmZiNmE1YWQtMmY5Ny00NWQ0LTllNjEtNzg1ZmQyNGMxNmFiIiwidXNlcm5hbWUiOiJZYWZlcjEwdG9ycmV6In0.fDq_tSsH5_oz3HMArk_zfWU22lX0lav7o68uQn6Yudq0Fis6n_ygVJDcdqqXnVkaw5jDueZS7Ey4qcCLaJnaLGD11-g1T8go2vEK25pWBZZb75PgXHwydIVmNWIflkr3bvEI93rq9zGmbpN6HpNAesacZXYPOhikO5b1tO-sMqs8qtg5d3GvjWCUPsUP0MuQ342Kiz9rBL4O9CTOOst5mQwa1fiTczm0aTAyW37wR_xw7wlVysofIbESxsdSOF7f0dJQWVxk4FPOHSjpgqpW67jRHcaeeacub4b1aipAHf6puBtGDmwamzr0QLPRwUiej1luR8mWx7jaYYAgwsD8gA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00ng%7Cc4u1mqnarscc72is00pg",
+					"protocol": "https",
+					"host": [
+						"k51qryqov3",
+						"execute-api",
+						"ap-southeast-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"models",
+						"c4u1mqnarscc72is00ng%7Cc4u1mqnarscc72is00pg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "voto_Guilia Quadrifloglio",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJraWQiOiJ0UkRnSmpNekhta2tIanVvT2g3Rm5RYkRBYUdHRjQxQ2VPbEVEaWI3MkQ4PSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJiMzc5NjUyNC0xY2VkLTRkYWMtYTBiYi05YmNmMWU0NmY2YWMiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGhlYXN0LTIuYW1hem9uYXdzLmNvbVwvYXAtc291dGhlYXN0LTJfT3A3S0d4ME1jIiwiY2xpZW50X2lkIjoiNTduZGNrZzNoZ2Y5OGZ1NHN1cXEzdjJpNGIiLCJvcmlnaW5fanRpIjoiOWFhZGZkNTQtYjMyNC00MmM0LWE2OTYtZjZlM2NmZjk4NjAyIiwiZXZlbnRfaWQiOiI3NzJkOTQyMC0zMjY1LTRlNGQtOWVhMC04NzJkNTgxNjIzNzYiLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNjc5NjE1NTMyLCJleHAiOjE2Nzk2MTkxMzIsImlhdCI6MTY3OTYxNTUzMiwianRpIjoiYmZiNmE1YWQtMmY5Ny00NWQ0LTllNjEtNzg1ZmQyNGMxNmFiIiwidXNlcm5hbWUiOiJZYWZlcjEwdG9ycmV6In0.fDq_tSsH5_oz3HMArk_zfWU22lX0lav7o68uQn6Yudq0Fis6n_ygVJDcdqqXnVkaw5jDueZS7Ey4qcCLaJnaLGD11-g1T8go2vEK25pWBZZb75PgXHwydIVmNWIflkr3bvEI93rq9zGmbpN6HpNAesacZXYPOhikO5b1tO-sMqs8qtg5d3GvjWCUPsUP0MuQ342Kiz9rBL4O9CTOOst5mQwa1fiTczm0aTAyW37wR_xw7wlVysofIbESxsdSOF7f0dJQWVxk4FPOHSjpgqpW67jRHcaeeacub4b1aipAHf6puBtGDmwamzr0QLPRwUiej1luR8mWx7jaYYAgwsD8gA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/models/c4u1mqnarscc72is00ng%7Cc4u1mqnarscc72is00sg",
+					"protocol": "https",
+					"host": [
+						"k51qryqov3",
+						"execute-api",
+						"ap-southeast-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"models",
+						"c4u1mqnarscc72is00ng%7Cc4u1mqnarscc72is00sg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RegistroConNombreVacio",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://k51qryqov3.execute-api.ap-southeast-2.amazonaws.com/prod/users/profile",
+					"protocol": "https",
+					"host": [
+						"k51qryqov3",
+						"execute-api",
+						"ap-southeast-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"users",
+						"profile"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
