@@ -2,3 +2,38 @@
 /apunte
 /Temas
 /powerpoints
+lab3/pwd_gradle/pwd/.gitignore
+lab3/pwd_gradle/pwd/build.gradle
+lab3/pwd_gradle/pwd/gradlew
+lab3/pwd_gradle/pwd/gradlew.bat
+lab3/pwd_gradle/pwd/settings.gradle
+lab3/pwd_gradle/pwd/gradle/wrapper/gradle-wrapper.jar
+lab3/pwd_gradle/pwd/gradle/wrapper/gradle-wrapper.properties
+lab3/pwd_gradle/pwd/src/main/java/com/pwd/PwdApplication.java
+lab3/pwd_gradle/pwd/src/main/resources/application.properties
+lab3/pwd_gradle/pwd/src/test/java/com/pwd/PwdApplicationTests.java
+lab3/pwd/pwd/.gitignore
+lab3/pwd/pwd/mvnw
+lab3/pwd/pwd/mvnw.cmd
+lab3/pwd/pwd/pom.xml
+lab3/pwd/pwd/.mvn/wrapper/maven-wrapper.jar
+lab3/pwd/pwd/.mvn/wrapper/maven-wrapper.properties
+lab3/pwd/pwd/src/main/java/com/pwd/Password.java
+lab3/pwd/pwd/src/main/java/com/pwd/PwdApplication.java
+lab3/pwd/pwd/src/main/resources/application.properties
+lab3/pwd/pwd/src/test/java/com/pwd/PwdApplicationTests.java
+lab3/calculadora-spring - copia/.settings/org.eclipse.core.resources.prefs
+lab3/calculadora-spring - copia/.settings/org.eclipse.jdt.apt.core.prefs
+lab3/calculadora-spring - copia/.settings/org.eclipse.jdt.core.prefs
+lab3/calculadora-spring - copia/.settings/org.eclipse.m2e.core.prefs
+lab3/calculadora-spring - copia/.settings/org.springframework.ide.eclipse.prefs
+lab3/calculadora-spring - copia/target/maven-archiver/pom.properties
+lab3/calculadora-spring - copia/target/calculadora-1.0-SNAPSHOT.jar.original
+lab3/calculadora-spring - copia/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+lab3/calculadora-spring - copia/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+lab3/calculadora-spring - copia/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+lab3/calculadora-spring - copia/.classpath
+lab3/calculadora-spring - copia/.project
+lab3/calculadora-spring - copia/calculator.iml
+lab3/calculadora-spring - copia/pom.xml
+lab3/calculadora-spring - copia/README.md
