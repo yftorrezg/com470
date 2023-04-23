@@ -2,6 +2,10 @@
 /apunte
 /Temas
 /powerpoints
+/libros-guia
+/apunte
+/Temas
+/powerpoints
 lab3/pwd_gradle/pwd/.gitignore
 lab3/pwd_gradle/pwd/build.gradle
 lab3/pwd_gradle/pwd/gradlew
@@ -37,3 +41,19 @@ lab3/calculadora-spring - copia/.project
 lab3/calculadora-spring - copia/calculator.iml
 lab3/calculadora-spring - copia/pom.xml
 lab3/calculadora-spring - copia/README.md
+TestTarea1/primerParcial2022.zip
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.xml
+*.prefs
+*.project
+*.classpath
+*.gradle
+*.iml
+*.properties
+*.bat 
+pwd/gradle/wrapper/gradle-wrapper.jar
