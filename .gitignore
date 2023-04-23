@@ -57,3 +57,4 @@ TestTarea1/primerParcial2022.zip
 *.properties
 *.bat 
 pwd/gradle/wrapper/gradle-wrapper.jar
+pwd/gradlew
